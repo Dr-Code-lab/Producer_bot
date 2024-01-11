@@ -1,0 +1,4 @@
+python-dotenv==0.21.1
+aiogram==3.3.0
+num2words==0.5.13
+
