@@ -19,27 +19,27 @@ async def select_fee_minus(call: CallbackQuery):
 @dp.callback_query(F.data == "6")
 async def select_fee_(call: CallbackQuery):
     fee.size = 0.94
-    await call.message.answer(f"Введи сумму для которой расчитать налог")
+    await call.message.answer(f"Введите сумму, для которой расчитать налог")
 
 
 @dp.callback_query(F.data == "7")
 async def select_fee_(call: CallbackQuery):
     fee.size = 0.93
-    await call.message.answer(f"Введи сумму для которой расчитать налог")
+    await call.message.answer(f"Введите сумму, для которой расчитать налог")
 
 
 @dp.callback_query(F.data == "8")
 async def select_fee(call: CallbackQuery):
     fee.size = 0.92
-    await call.message.answer(f"Введи сумму для которой расчитать налог")
+    await call.message.answer(f"Введите сумму, для которой расчитать налог")
 
 @dp.callback_query(F.data == "9")
 async def select_fee_(call: CallbackQuery):
     fee.size = 0.91
-    await call.message.answer(f"Введи сумму для которой расчитать налог")
+    await call.message.answer(f"Введите сумму, для которой расчитать налог")
 
 
 @dp.callback_query(F.data == "10")
 async def select_fee(call: CallbackQuery):
     fee.size = 0.9
-    await call.message.answer(f"Введи сумму для которой расчитать налог")
+    await call.message.answer(f"Введите сумму, для которой расчитать налог")

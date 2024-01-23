@@ -14,4 +14,3 @@ fee = Fee()
 storage = MemoryStorage()
 bot = Bot(token=config.token)
 dp = Dispatcher(bot=bot, storage=storage)
-#%%

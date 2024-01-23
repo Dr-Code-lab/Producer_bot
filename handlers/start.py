@@ -9,4 +9,4 @@ async def to_command_start(message: Message):
     """
     This handler receives messages with `/start` command
     """
-    await message.answer(f"Выбери тип расчета:", reply_markup=keyboard)
+    await message.answer(f"Выберите тип расчета:", reply_markup=keyboard)
